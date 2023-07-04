@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+main {
+  width: 626px;
+  height: 486px;
+  margin: 64px auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  
+  color: #3F3D56;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+h1 span {
+  color: #EE24FF;
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+
+ 
+  color: #828282;
+}
+
+.line {
+  border: 1px solid #ECEFF2;
+  width: 391px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 268px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul li a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 147.68%;
+
+  text-align: center;
+
+  color: #3F3D56;
+  opacity: 0.5;
+}
+
+a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+  fill: #3F3D56;
+}
