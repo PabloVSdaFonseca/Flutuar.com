@@ -8,7 +8,6 @@
 body {
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
-  
 }
 
 main {
@@ -84,20 +83,12 @@ a:hover {
   cursor: pointer;
 }
 
-.wave {
+.Wave {
+  width: 100vw;
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
   overflow: hidden;
-
-}
-
-.wave svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  transform: rotateY(180deg);
 }
 
 .wave .shape-fill {
